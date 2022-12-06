@@ -19,12 +19,15 @@ st.title('First app')
 
 sell = st.selectbox('Selection', ['Si','Mg','Ca'])
 
-st.write('Deine Auswahl ist: ', sell)
+st.write('Deine Auswahl ist: ', sell) 
 
 
 fig, ax = plt.subplots()
 
 ax.scatter(df[sell], df['Mg'])
+
+plt.xlabel(sell)  
+plt.ylabel(sell)
 
 
 st.pyplot(fig)
