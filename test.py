@@ -4,7 +4,9 @@ import pandas as pd
 import numpy as np
 
 
-pd.read_csv('Bastar Craton.csv')
+df = pd.read_csv('Bastar Craton.csv')
+
+df
             
 st.title('First app')
 
