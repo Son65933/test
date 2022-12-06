@@ -3,6 +3,9 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
+
+pd.read_csv('Bastar Craton.csv')
+            
 st.title('First app')
 
 sell = st.selectbox('Selection', [1,2,3])
