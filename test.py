@@ -24,7 +24,7 @@ st.write('Deine Auswahl ist: ', sell)
 
 fig, ax = plt.subplots()
 
-ax.scatter(df['Ca'], df['Mg'])
+ax.scatter(df[sell], df['Mg'])
 
 
 st.pyplot(fig)
