@@ -10,10 +10,10 @@ df
 
 df.loc[:,['Si', 'Mg', 'Ca']]
 
-x_data = 'Mg'
-y_data = 'Si'
+#x_data = 'Mg'
+#y_data = 'Si'
 
-plt.show(x_data, y_data)
+#plt.show(x_data, y_data)
             
 st.title('First app')
 
