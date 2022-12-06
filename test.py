@@ -7,10 +7,12 @@ import numpy as np
 df = pd.read_csv('Bastar Craton.csv')
 
 df
+
+df.loc[:,['Si', 'Mg', 'Ca']]
             
 st.title('First app')
 
-sell = st.selectbox('Selection', [1,2,3])
+sell = st.selectbox('Selection', ['Si','Mg','Ca'])
 
 st.write('Deine Auswahl ist: ', sell)
 
