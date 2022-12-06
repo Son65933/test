@@ -9,6 +9,11 @@ df = pd.read_csv('Bastar Craton.csv')
 df
 
 df.loc[:,['Si', 'Mg', 'Ca']]
+
+x_data = 'Mg'
+y_data = 'Si'
+
+plt.show(x, y)
             
 st.title('First app')
 
