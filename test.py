@@ -11,7 +11,7 @@ sell = st.selectbox('Selection', [1,2,3])
 
 st.write('Deine Auswahl ist: ', sell)
 
-x= np.linespace(0, 50, 50)
+x= np.linspace(0, 50, 50)
 
 fig, ax = plt.subplots()
 
