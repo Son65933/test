@@ -26,8 +26,8 @@ fig, ax = plt.subplots()
 
 ax.scatter(df[sell], df['Mg'])
 
-plt.xlabel(sell)  
-plt.ylabel(sell)
+plt.xlabel(df[sell])  
+plt.ylabel(df[sell])
 
 
 st.pyplot(fig)
